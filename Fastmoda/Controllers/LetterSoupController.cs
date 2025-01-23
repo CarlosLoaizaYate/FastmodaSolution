@@ -27,9 +27,11 @@ namespace Fastmoda.API.Controllers
 
         // POST api/<LetterSoupController>
         [HttpPost("contieneNombre")]
-        public Boolean ContieneNombre(LetterSoupContract letterSoupContract)
+        public LetterSoupReturn ContieneNombre(LetterSoupContract letterSoupContract)
         {
-            return _letterSoupService.contieneNombre(letterSoupContract.info, letterSoupContract.nombre);
+            LetterSoupReturn letterSoupReturn = new LetterSoupReturn();
+            letterSoupReturn.resultado = _letterSoupService.contieneNombre(letterSoupContract.info, letterSoupContract.nombre);
+            return letterSoupReturn;
         }
     }
 }
