@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastmoda.API", "Fastmoda\Fastmoda.API.csproj", "{D77094D9-B3B3-4F71-B013-A80E82305157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastmoda.Application", "Fastmoda.Application\Fastmoda.Application.csproj", "{D9520D5D-EBA8-480E-B110-4DD9B685ADE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastmoda.Common", "Fastmoda.Common\Fastmoda.Common.csproj", "{C9900065-E178-4EE7-9CA5-A84A65F8B9B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77094D9-B3B3-4F71-B013-A80E82305157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77094D9-B3B3-4F71-B013-A80E82305157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77094D9-B3B3-4F71-B013-A80E82305157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77094D9-B3B3-4F71-B013-A80E82305157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9520D5D-EBA8-480E-B110-4DD9B685ADE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9520D5D-EBA8-480E-B110-4DD9B685ADE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9520D5D-EBA8-480E-B110-4DD9B685ADE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9520D5D-EBA8-480E-B110-4DD9B685ADE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9900065-E178-4EE7-9CA5-A84A65F8B9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9900065-E178-4EE7-9CA5-A84A65F8B9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9900065-E178-4EE7-9CA5-A84A65F8B9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9900065-E178-4EE7-9CA5-A84A65F8B9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
