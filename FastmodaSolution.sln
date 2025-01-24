@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastmoda.API", "Fastmoda\Fastmoda.API.csproj", "{D77094D9-B3B3-4F71-B013-A80E82305157}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastmoda.Application", "Fastmoda.Application\Fastmoda.Application.csproj", "{D9520D5D-EBA8-480E-B110-4DD9B685ADE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastmoda.Common", "Fastmoda.Common\Fastmoda.Common.csproj", "{C9900065-E178-4EE7-9CA5-A84A65F8B9B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{FAE1BD00-78F6-427E-9B45-7DBF11C9A881}"
+	ProjectSection(SolutionItems) = preProject
+		..\FastModaDB.sql = ..\FastModaDB.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
